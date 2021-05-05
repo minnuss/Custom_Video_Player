@@ -1,0 +1,84 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #666;
+}
+
+body h1 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+body .screen {
+  cursor: pointer;
+  width: 60%;
+  background-color: #000;
+  border-radius: 10px 10px 0 0;
+  margin: 30px 0 0;
+}
+
+body .controls {
+  width: 60%;
+  background-color: #222f3e;
+  color: #fff;
+  border-radius: 0 0 10px 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body .controls .btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  margin: 0 5px;
+  outline: none;
+}
+
+body .controls .btn .fa-play {
+  color: #00d2d3;
+}
+
+body .controls .btn .fa-stop {
+  color: #487eb0;
+}
+
+body .controls .btn .fa-pause {
+  color: #fff;
+}
+
+body .controls .timestamp {
+  color: #fff;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+body .controls .volume {
+  width: 15%;
+  margin-left: 5px;
+}
+
+@media (max-width: 800px) {
+  body .screen,
+  body .controls {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
