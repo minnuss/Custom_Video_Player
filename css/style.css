@@ -78,7 +78,12 @@ body .controls .volume {
 @media (max-width: 800px) {
   body .screen,
   body .controls {
-    width: 90%;
+    width: 95%;
+  }
+  body .screen .volume,
+  body .controls .volume {
+    width: 30%;
+    margin-left: 5px;
   }
 }
 /*# sourceMappingURL=style.css.map */
